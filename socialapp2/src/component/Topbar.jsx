@@ -12,9 +12,10 @@ export default function Topbar(){
 <span className="logo">CarolSocial </span>
             </div>
             <div className="topbarCenter">
-                <div className="searchbar">
+                <div className="searchbar"><span className="searchIcon">
                     <SearchIcon/>
-                    <input type="text" placeholder="Search for friends, posts and videos"/>
+                    </span>
+                    <input className="searchInput"type="text" placeholder="Search for friends, posts and videos"/>
                 </div>
                 </div>
              <div className="topbarRight">
@@ -22,6 +23,7 @@ export default function Topbar(){
                     <span className="topbarLink">Home</span>
                     <span className="topbarLink">Timeline</span>
                 </div>
+                <div className="topbarIcons">
                 <div className="topbaricon">
 <PersonIcon/><span className="topbarIconBadge">1</span>
 
@@ -32,7 +34,7 @@ export default function Topbar(){
                 </div>
                 <div className="topbaricon">
 <NotificationsIcon/><span className="topbarIconBadge">3</span>
-
+</div>
                 
                 </div>
                 <img src="/assets/1.jpeg" alt="" className="topbarimage" />
