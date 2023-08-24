@@ -32,6 +32,28 @@
 }
 .shareoptions{
     display: flex;
+   
     justify-items: center;
     justify-content: space-between;
+}
+.shareoption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shareIcon{
+    margin-bottom: 4px;
+}
+.shareoptiontext{
+    font-size: 14px;
+    font-weight: 500;
+}
+.shareButton{
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: green;
+    font-weight: 500;
+    cursor: pointer;
+    color: aliceblue;
 }

@@ -1,5 +1,8 @@
 import "./share.css";
 import PermMediaIcon from '@mui/icons-material/PermMedia';
+import LocalOfferIcon from '@mui/icons-material/LocalOffer';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
 
 export default function Share() {
   return (
@@ -13,22 +16,26 @@ export default function Share() {
         <div className="sharebottom">
 <div className="shareoptions">
     <div className="shareoption">
-    <PermMediaIcon/>
-        <span className="shareoptiontext">Photo or Video </span> 
+    <PermMediaIcon htmlColor="red" className="shareIcon"/>
+        <span className="shareoptiontext">Photo or Video</span> 
     </div>
     <div className="shareoption">
-    <PermMediaIcon/>
-        <span className="shareoptiontext">Photo or Video </span> 
-    </div><div className="shareoption">
-    <PermMediaIcon/>
-        <span className="shareoptiontext">Photo or Video </span> 
+    <LocalOfferIcon htmlColor="blue" className="shareIcon"/>
+        <span className="shareoptiontext">Tag</span> 
     </div>
     <div className="shareoption">
-    <PermMediaIcon/>
-        <span className="shareoptiontext">Photo or Video </span> 
+    <LocationOnIcon htmlColor="green"className="shareIcon"/>
+        <span className="shareoptiontext">Location</span> 
     </div>
+    <div className="shareoption">
+    <EmojiEmotionsIcon htmlColor="gold"className="shareIcon"/>
+        <span className="shareoptiontext">Feelings</span> 
+    </div>
+    <button className="shareButton">Share</button>
 </div>
+
 </div>
+
         </div>
     </div>
   )
